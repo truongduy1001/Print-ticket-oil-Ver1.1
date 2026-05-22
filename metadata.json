@@ -1,5 +1,6 @@
 {
   "name": "Hệ thống In Phiếu Xăng Dầu",
   "description": "Ứng dụng chuyên nghiệp để tạo và in phiếu xăng dầu hàng loạt với số nhảy tự động, định dạng chuẩn khổ giấy A4.",
-  "requestFramePermissions": []
+  "requestFramePermissions": [],
+  "majorCapabilities": []
 }

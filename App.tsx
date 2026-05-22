@@ -12,7 +12,7 @@ const App: React.FC = () => {
     volume: '04',
     volumeText: 'Bốn Lít',
     companyName: 'CÔNG TY XĂNG DẦU CHÂU THÀNH',
-    signatory: 'P.Giám đốc',
+    signatory: 'P.Tổng Giám Đốc',
     fontFamily: "'Times New Roman', Times, serif"
   });
 
