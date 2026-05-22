@@ -17,7 +17,7 @@ const Coupon: React.FC<CouponProps> = ({ config, serialNumber }) => {
         fontFamily: config.fontFamily 
       }}
     >
-      <div className="border border-black flex-1 flex flex-col items-center justify-between py-1 px-2">
+      <div className="border border-black w-full h-full flex flex-col items-center justify-between py-1 px-2 box-border min-h-0">
         {/* Nhóm phần trên và phần nội dung chính */}
         <div className="text-center w-full flex flex-col items-center">
           {/* Tên công ty */}
@@ -32,7 +32,7 @@ const Coupon: React.FC<CouponProps> = ({ config, serialNumber }) => {
 
           {/* Tiêu đề phiếu và Loại xăng - Chuyển về màu đen theo yêu cầu mới nhất */}
           <div className="mt-0">
-            <h1 className="font-bold text-[19px] uppercase tracking-wide leading-tight text-black">
+            <h1 className="font-bold text-[16px] uppercase tracking-wide leading-tight text-black">
               PHIẾU CẤP xăng {config.fuelType}
             </h1>
             <p className="text-[14px] font-bold leading-tight">
@@ -47,7 +47,7 @@ const Coupon: React.FC<CouponProps> = ({ config, serialNumber }) => {
         </div>
 
         {/* Phần chân: Chức danh ký */}
-        <div className="w-full flex justify-end items-end mb-20 px-1">
+        <div className="w-full flex justify-end items-end mb-12 px-1">
           <div className="text-center min-w-[140px]">
             <p className="text-[13px] font-bold leading-tight">{config.signatory}</p>
           </div>
