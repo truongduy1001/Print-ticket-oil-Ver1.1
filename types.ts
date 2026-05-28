@@ -16,7 +16,7 @@ export interface VolumeOption {
   text: string;
 }
 
-export const FUEL_TYPES = ['E5', 'A95', 'Dầu DO', 'E10 Ron 95 III'];
+export const FUEL_TYPES = ['E5', 'A95', 'Dầu DO', 'E10 Ron95-III'];
 
 export const FONT_OPTIONS = [
   { value: "'Inter', sans-serif", label: 'Mặc định (Inter)' },
