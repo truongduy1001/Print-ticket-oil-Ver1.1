@@ -33,4 +33,5 @@ export const VOLUME_OPTIONS: VolumeOption[] = [
   { value: '10', label: '10 Lít (Mười Lít)', text: 'Mười Lít' },
   { value: '20', label: '20 Lít (Hai mươi Lít)', text: 'Hai mươi Lít' },
   { value: '30', label: '30 Lít (Ba mươi Lít)', text: 'Ba mươi Lít' },
+  { value: '50', label: '50 Lít (Năm mươi Lít)', text: 'Năm mươi Lít' },
 ];
